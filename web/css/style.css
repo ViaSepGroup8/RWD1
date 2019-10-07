@@ -5,7 +5,6 @@ body{
 }
 
 div.showcase{
-  background-image: url(/img/via_bg.png);
   background-color: #333;
   height: 500px
 }
