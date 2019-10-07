@@ -129,11 +129,12 @@ li a:hover:not(.active) {
 
 /* Style the footer */
 footer {
+  font-size: 20px;
   position: fixed;
   left: 0;
   bottom: 0;
   clear: both;
-  height: 600px;
+  height: 200px;
   width: 100%;
   background-color: #777;
   /*padding: 10px; */
@@ -147,6 +148,29 @@ footer {
   width: 100%;
   clear: both;
 }
+
 #Footer li{
   list-style-type: none;
+}
+
+.footer-left, .footer-center-left, .footer-center-right {
+  display: inline;
+  float: left;
+  width: 25%;
+}
+
+/*
+ * In case you want to put the icons horizontally.
+ *
+.icons-footer {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px;
+}
+*/
+
+.footer-right {
+  padding-top: 20px;
+  padding-right: 20px;
 }
