@@ -129,6 +129,9 @@ li a:hover:not(.active) {
 
 /* Style the footer */
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   clear: both;
   height: 200px;
   background-color: #777;
