@@ -13,7 +13,10 @@ div.showcase img{
   width: 100%;
   display: block;
 }
-
+div.studying img {
+    width: 100%;
+    display: block;
+}
 
 .navbar{
   background-color: rgba(90,90,90,0.5);
@@ -90,11 +93,57 @@ section{
 }
 
 article {
-  float: left;
-  padding: 20px;
-  background-color: #f1f1f1;
+  font-family: Helvetica Neue;
+    font-size: 15px;
+    padding-left:10%;
+    float:left;
+    
+}
+  
+h1 {
+    font-family: Helvetica Neue;
+    font-weight: 100;
+    font-size: 50px;
+    color: grey;
+    border-radius: 15%;
+    padding-left: 15%;
+    float:left;    
+    
 }
 
+h2 {
+    font-family: Helvetica Neue;
+    font-weight: 100;
+    font-size: 50px;
+    color: grey;    
+    padding-left: 60%;
+    border-radius: 60%;
+    
+    
+}
+
+ul {
+    
+    font-family: Helvetica Neue;
+    font-weight: 100;
+    font-size: 16px;
+    float:left;
+   padding-left: 0;
+    width: 45%;
+    
+    
+}
+.Digital {
+     font-family: Helvetica Neue;
+    font-weight: 100;
+    font-size: 16px;
+   float:left;
+   padding: 30px;
+    width: 35%;
+    
+    
+}
+   
 
 
 /*ul {
