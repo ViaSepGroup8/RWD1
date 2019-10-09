@@ -239,6 +239,28 @@ footer a:active {
 }
 /*Here ends the styling of the footer.*/
 
+/*The Advice.html styling starts here*/
+#container {
+    box-sizing: border-box;
+}
+
+#left-container-advice {
+  width: 60%;
+  height: 100px;
+  background-color: red;
+  display: inline-block;
+  float: left;
+}
+
+#right-container-advice {
+  width: 40%;
+  height: 100px;
+  background-color: blue;
+  display: inline-block;
+  float: left;
+}
+/*The Advice styling ends here*/
+
 /*Schedule Tab*/
 .tg  {border-collapse:collapse;border-spacing:0;margin: auto;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
