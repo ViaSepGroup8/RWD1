@@ -97,9 +97,9 @@ article {
     font-size: 15px;
     padding-left:10%;
     float:left;
-    
+
 }
-  
+
 h1 {
     font-family: Helvetica Neue;
     font-weight: 100;
@@ -107,31 +107,31 @@ h1 {
     color: grey;
     border-radius: 15%;
     padding-left: 15%;
-    float:left;    
-    
+    float:left;
+
 }
 
 h2 {
     font-family: Helvetica Neue;
     font-weight: 100;
     font-size: 50px;
-    color: grey;    
+    color: grey;
     padding-left: 60%;
     border-radius: 60%;
-    
-    
+
+
 }
 
 ul {
-    
+
     font-family: Helvetica Neue;
     font-weight: 100;
     font-size: 16px;
     float:left;
    padding-left: 0;
     width: 45%;
-    
-    
+
+
 }
 .Digital {
      font-family: Helvetica Neue;
@@ -140,10 +140,10 @@ ul {
    float:left;
    padding: 30px;
     width: 35%;
-    
-    
+
+
 }
-   
+
 
 
 /*ul {
@@ -223,3 +223,13 @@ footer {
   padding-top: 20px;
   padding-right: 20px;
 }
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-nto1{background-color:#000000;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-6hdc{background-color:#000000;color:#000000;text-align:left;vertical-align:top}
+.tg .tg-symt{background-color:#000000;color:#000000;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-8m24{background-color:#000000;text-align:left;vertical-align:top}
