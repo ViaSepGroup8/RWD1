@@ -181,8 +181,9 @@ footer ul {
   margin-right: auto;
 }
 
-#Footer {
+#Footer a{
   /*display: block;*/
+  position: relative;
 }
 
 #Footer li {
