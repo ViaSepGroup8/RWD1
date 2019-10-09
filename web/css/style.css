@@ -172,13 +172,13 @@ li a:hover:not(.active) {
   background-color: #111;
 }*/
 
-.active {
+/*.active {
   background-color: #4CAF50;
-}
+}*/
 
 /* Style the footer */
 footer {
-  font-size: 20px;
+  font-size: 0.8em;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -186,63 +186,90 @@ footer {
   height: 200px;
   width: 100%;
   background-color: #777;
+  /*background-color: #292c2f; --> Maybe this color*/
   /*padding: 10px; */
   text-align: center;
   color: white;
-  z-index: -1;
+  box-sizing: border-box;
+  /*z-index: -1; --> If you activate this, the footer's links do not work*/
 }
 
-.footer-scroll-area{
+footer p {
+  /*display: inline-block;*/
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+footer span {
+  text-decoration: underline;
+}
+
+.footer-scroll-area {
   height: 800px;
   width: 100%;
   clear: both;
 }
 
-#Footer li{
-  list-style-type: none;
+footer ul {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.footer-left, .footer-center-left, .footer-center-right {
+#Footer {
+  display: block;
+}
+
+#Footer li {
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
+  text-align: center;
+  display: list-item;
+  /*margin: 5px auto 0px 50px;*/
+}
+
+.footer-left, .footer-center-left, .footer-center-right, .footer-right {
   display: inline;
   float: left;
   width: 25%;
 }
 
-/*
- * In case you want to put the icons horizontally.
- *
+.footer-right {
+  margin-top: 25px;
+  font-size: 20px;
+  margin-left: 0;
+}
+
 .icons-footer {
   display: inline;
   margin-left: auto;
   margin-right: auto;
-  padding: 4px;
-}
-*/
-
-.footer-right {
-  padding-top: 20px;
-  padding-right: 20px;
+  padding: 3px;
 }
 
-.footer-right a {
-
+footer a {
+  text-decoration: none;
+  padding: inherit;
 }
 
-.footer-right a:link {
+footer a:link {
   color: black;
 }
 
-/* visited link */
-.footer-right a:visited {
-  color: green;
+footer a:visited {
+  color: black;
+  text-decoration: none;
 }
 
-/* mouse over link */
-.footer-right a:hover {
+footer a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+footer a:active {
   color: black;
 }
 
-/* selected link */
-.footer-right a:active {
-  color: black;
-}
+/*Here ends the styling for the footer*/
