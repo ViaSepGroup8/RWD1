@@ -54,9 +54,13 @@ div.studying img {
   font-size: 20px;
 }
 
-.navbar a:hover {
+.navbar .left a:hover {
   background: #ddd;
   color: black;
+}
+
+.navbar .right a:hover {
+  color: blue;
 }
 
 .navbar .left{
@@ -78,7 +82,7 @@ div.studying img {
 }
 
 .navbar .center img{
-  height: 80px;
+  height: 60px;
   position: absolute;
   margin: auto;
   top: 0;
@@ -94,7 +98,7 @@ section{
 article {
   font-family: Helvetica Neue;
     font-size: 15px;
-    padding-left:10%;
+    padding-left:5%;
     float:left;
 
 }
@@ -104,7 +108,6 @@ h1 {
     font-weight: 100;
     font-size: 50px;
     color: grey;
-    border-radius: 15%;
     padding-left: 15%;
     float:left;
 
@@ -116,29 +119,39 @@ h2 {
     font-size: 50px;
     color: grey;
     padding-left: 60%;
-    border-radius: 60%;
-
 
 }
 
-ul {
-
+.firstblock {
     font-family: Helvetica Neue;
     font-weight: 100;
     font-size: 16px;
+    width:43%;
     float:left;
    padding-left: 0;
-    width: 45%;
-
-
-}
+    }
 .Digital {
     font-family: Helvetica Neue;
     font-weight: 100;
     font-size: 16px;
-   float:left;
-   padding: 30px;
-    width: 35%;
+   padding-left: 55%;
+    width: 40%;
+}
+h5{
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+   }
+.Quote {
+    font-size: 60px;
+    padding-top: 200px;
+    padding-bottom: 250px;
+    text-align: center;
+    font-weight: 100;
+}
+.rules{
+    padding-left: 5%;
 }
 
 /* Style the footer */
@@ -266,7 +279,7 @@ footer a:active {
 /*The Advice styling ends here*/
 
 /*Schedule Tab*/
-.tg  {border-collapse:collapse;border-spacing:0;margin: auto;}
+.tg  {border-collapse:collapse;border-spacing:0;margin: auto;width: 90%;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-loqm{font-weight:bold;background-color:#656565;color:#ffffff;border-color:#656565;text-align:left;vertical-align:top}
@@ -275,6 +288,5 @@ footer a:active {
 .tg .tg-ulos{font-weight:bold;background-color:#d8d8d8;color:#000000;border-color:#000000;text-align:center;vertical-align:top}
 .tg .tg-3ya8{font-weight:bold;background-color:#656565;color:#ffffff;border-color:#656565;text-align:center;vertical-align:top}
 .tg .tg-z9n4{font-weight:bold;background-color:#403e3e;color:#000000;border-color:#000000;text-align:center;vertical-align:top}
-
 .rules {margin: auto;}
 .rules li {list-style-type: square;}
