@@ -240,6 +240,10 @@ footer a:active {
 /*Here ends the styling of the footer.*/
 
 /*The Advice.html styling starts here*/
+#cover-img {
+  width: 100%;
+  height: 400px;
+}
 #container {
     box-sizing: border-box;
 }
