@@ -9,6 +9,15 @@ div.showcase{
 /*  background-color: red;*/
 }
 
+div.login{
+  display: none;
+  float: right;
+  background-color: blue;
+  width: 30%;
+  height: 220px;
+
+}
+
 div.showcase img{
   width: 100%;
   display: block;
@@ -279,7 +288,7 @@ footer a:active {
 }
 /*The Advice styling ends here*/
 
-/*Schedule Tab*/
+/*Schedule Tab Bernardo*/
 .tg  {border-collapse:collapse;border-spacing:0;margin: auto;width: 90%;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -289,5 +298,8 @@ footer a:active {
 .tg .tg-ulos{font-weight:bold;background-color:#d8d8d8;color:#000000;border-color:#000000;text-align:center;vertical-align:top}
 .tg .tg-3ya8{font-weight:bold;background-color:#656565;color:#ffffff;border-color:#656565;text-align:center;vertical-align:top}
 .tg .tg-z9n4{font-weight:bold;background-color:#403e3e;color:#000000;border-color:#000000;text-align:center;vertical-align:top}
-.rules {margin: auto;}
-.rules li {list-style-type: square;}
+
+/*Rules Tab Bernardo*/
+.rules {float: none; margin: auto;}
+.rules > h1 {}
+.rules > li {list-style-type: square;}
