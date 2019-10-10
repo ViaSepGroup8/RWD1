@@ -91,7 +91,7 @@ section{
   clear: both;
 }
 
-article {
+#Examtypes {
   font-family: Helvetica Neue;
     font-size: 15px;
     padding-left:5%;
@@ -99,7 +99,7 @@ article {
 
 }
 
-h1 {
+.examsheading {
     font-family: Helvetica Neue;
     font-weight: 100;
     font-size: 50px;
@@ -109,7 +109,7 @@ h1 {
 
 }
 
-h2 {
+.digitalexams {
     font-family: Helvetica Neue;
     font-weight: 100;
     font-size: 50px;
@@ -133,7 +133,7 @@ h2 {
    padding-left: 55%;
     width: 40%;
 }
-h5{
+.WISEFLOW2 {
     font-weight: bold;
     font-size: 18px;
     font-style: italic;
