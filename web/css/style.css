@@ -9,6 +9,15 @@ div.showcase{
 /*  background-color: red;*/
 }
 
+div.login{
+  display: none;
+  float: right;
+  background-color: blue;
+  width: 30%;
+  height: 220px;
+
+}
+
 div.showcase img{
   width: 100%;
   display: block;
@@ -94,7 +103,7 @@ div.studying img {
 section{
   clear: both;
 }
-
+ /* Exam types */
 #Examtypes {
   font-family: Helvetica Neue;
     font-size: 15px;
@@ -139,7 +148,7 @@ section{
 }
 .WISEFLOW2 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     font-style: italic;
     text-align: center;
    }
