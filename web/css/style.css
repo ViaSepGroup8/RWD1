@@ -170,28 +170,29 @@ article{
 }
 
 /* Style the footer */
-footer {
+
+/* footer {
   font-size: 0.8em;
   /* position: fixed;
   left: 0;
-  bottom: 0;*/
+  bottom: 0;
   position: relative;
   clear: both;
   height: 200px;
   width: 100%;
   background-color: #777;
   /*background-color: #292c2f; --> Maybe this color*/
-  /*padding: 10px; */
+  /*padding: 10px;
   text-align: center;
   color: white;
   box-sizing: border-box;
-  z-index: -1; /*--> If you change this to 0 or 1, the footer's links won't work*/
+  z-index: -1; /*--> If you change this to 0 or 1, the footer's links won't work
 }
 
 footer p {
-  /*display: inline-block;*/
+  /*display: inline-block;
   color: #ffffff;
-  /*vertical-align: middle*/;
+  /*vertical-align: middle;
 }
 
 footer span {
@@ -211,7 +212,7 @@ footer ul {
 }
 
 #Footer a{
-  /*display: block;*/
+  /*display: block;
   position: relative;
 }
 
@@ -222,7 +223,7 @@ footer ul {
   padding-bottom: 5px;
   text-align: center;
   display: list-item;
-  /*margin: 5px auto 0px 50px;*/
+  /*margin: 5px auto 0px 50px;
 }
 
 .footer-left, .footer-center-left, .footer-center-right, .footer-right {
@@ -235,6 +236,35 @@ footer ul {
   margin-top: 25px;
   font-size: 20px;
   margin-left: 0;
+} */
+
+#footer-content{
+  font-size: 18px;
+  width: 100%;
+  background-color:gray;;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+footer ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li{
+  display: inline;
+}
+
+footer div{
+  padding-left: 60px;
+  float: left;
+  width: auto;
 }
 
 .icons-footer {
@@ -265,6 +295,12 @@ footer a:hover {
 
 footer a:active {
   color: black;
+}
+
+.footer-right {
+  text-align: left;
+  float: right;
+  padding-right: 60px;
 }
 /*Here ends the styling of the footer.*/
 
