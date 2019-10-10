@@ -60,7 +60,7 @@ div.studying img {
 }
 
 .navbar .right a:hover {
-  color: blue;
+  color: darkgray
 }
 
 .navbar .left{
@@ -95,7 +95,7 @@ section{
   clear: both;
 }
 
-article {
+#Examtypes {
   font-family: Helvetica Neue;
     font-size: 15px;
     padding-left:5%;
@@ -103,7 +103,7 @@ article {
 
 }
 
-h1 {
+.examsheading {
     font-family: Helvetica Neue;
     font-weight: 100;
     font-size: 50px;
@@ -113,7 +113,7 @@ h1 {
 
 }
 
-h2 {
+.digitalexams {
     font-family: Helvetica Neue;
     font-weight: 100;
     font-size: 50px;
@@ -137,7 +137,7 @@ h2 {
    padding-left: 55%;
     width: 40%;
 }
-h5{
+.WISEFLOW2 {
     font-weight: bold;
     font-size: 18px;
     font-style: italic;
@@ -157,9 +157,10 @@ h5{
 /* Style the footer */
 footer {
   font-size: 0.8em;
-  position: fixed;
+  /* position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 0;*/
+  position: relative;
   clear: both;
   height: 200px;
   width: 100%;
