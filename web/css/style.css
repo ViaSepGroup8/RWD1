@@ -9,6 +9,15 @@ div.showcase{
 /*  background-color: red;*/
 }
 
+div.login{
+  display: none;
+  float: right;
+  background-color: blue;
+  width: 30%;
+  height: 220px;
+
+}
+
 div.showcase img{
   width: 100%;
   display: block;
