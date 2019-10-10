@@ -156,12 +156,12 @@ h5{
 
 /* Style the footer */
 footer {
-  font-size: 0.8em;
+  font-size: 0.6em;
   position: fixed;
   left: 0;
   bottom: 0;
   clear: both;
-  height: 200px;
+  height: 150px;
   width: 100%;
   background-color: #777;
   /*background-color: #292c2f; --> Maybe this color*/
@@ -170,6 +170,8 @@ footer {
   color: white;
   box-sizing: border-box;
   z-index: -1; /*--> If you change this to 0 or 1, the footer's links won't work*/
+  position: fixed;
+  bottom: 0;
 }
 
 footer p {
@@ -186,12 +188,14 @@ footer span {
   height: 800px;
   width: 100%;
   clear: both;
+  z-index: -1;
 }
 
 footer ul {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
 }
 
 #Footer a{
