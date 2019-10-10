@@ -343,5 +343,5 @@ footer a:active {
 
 /*Rules Tab Bernardo*/
 .rules {box-sizing: border-box;border-spacing:0;width: 50%;margin: auto;}
-.rules > h1 {}
+.rules > h1 {margin: 10% 30%;}
 .rules > ul {}
