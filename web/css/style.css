@@ -54,9 +54,13 @@ div.studying img {
   font-size: 20px;
 }
 
-.navbar a:hover {
+.navbar .left a:hover {
   background: #ddd;
   color: black;
+}
+
+.navbar .right a:hover {
+  color: blue;
 }
 
 .navbar .left{
@@ -78,7 +82,7 @@ div.studying img {
 }
 
 .navbar .center img{
-  height: 80px;
+  height: 60px;
   position: absolute;
   margin: auto;
   top: 0;
@@ -115,7 +119,7 @@ h2 {
     font-size: 50px;
     color: grey;
     padding-left: 60%;
-    
+
 }
 
 .firstblock {
