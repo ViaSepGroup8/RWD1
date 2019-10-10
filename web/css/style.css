@@ -54,9 +54,13 @@ div.studying img {
   font-size: 20px;
 }
 
-.navbar a:hover {
+.navbar .left a:hover {
   background: #ddd;
   color: black;
+}
+
+.navbar .right a:hover {
+  color: darkgray
 }
 
 .navbar .left{
@@ -78,7 +82,7 @@ div.studying img {
 }
 
 .navbar .center img{
-  height: 80px;
+  height: 60px;
   position: absolute;
   margin: auto;
   top: 0;
@@ -115,7 +119,7 @@ section{
     font-size: 50px;
     color: grey;
     padding-left: 60%;
-    
+
 }
 
 .firstblock {
@@ -153,9 +157,10 @@ section{
 /* Style the footer */
 footer {
   font-size: 0.8em;
-  position: fixed;
+  /* position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 0;*/
+  position: relative;
   clear: both;
   height: 200px;
   width: 100%;
@@ -247,6 +252,32 @@ footer a:active {
   color: black;
 }
 /*Here ends the styling of the footer.*/
+
+/*The Advice.html styling starts here*/
+#cover-img {
+  width: 100%;
+  height: 400px;
+}
+#container {
+    box-sizing: border-box;
+}
+
+#left-container-advice {
+  width: 60%;
+  height: 100px;
+  background-color: red;
+  display: inline-block;
+  float: left;
+}
+
+#right-container-advice {
+  width: 40%;
+  height: 100px;
+  background-color: blue;
+  display: inline-block;
+  float: left;
+}
+/*The Advice styling ends here*/
 
 /*Schedule Tab*/
 .tg  {border-collapse:collapse;border-spacing:0;margin: auto;width: 90%;}
