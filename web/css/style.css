@@ -1,12 +1,22 @@
-body{
+ body{
   margin: 0;
   padding: 0;
   font-size: 28px;
+  background-color: snow;
 }
 
 div.showcase{
 /*  /background-color: #333;*/
 /*  background-color: red;*/
+}
+
+div.login{
+  display: none;
+  float: right;
+  background-color: blue;
+  width: 30%;
+  height: 220px;
+
 }
 
 div.showcase img{
@@ -60,7 +70,7 @@ div.studying img {
 }
 
 .navbar .right a:hover {
-  color: blue;
+  color: darkgray
 }
 
 .navbar .left{
@@ -93,9 +103,14 @@ div.studying img {
 
 section{
   clear: both;
+  background-color: snow;
 }
 
-article {
+article{
+  background-color: snow;
+}
+ /* Exam types */
+#Examtypes {
   font-family: Helvetica Neue;
     font-size: 15px;
     padding-left:5%;
@@ -103,7 +118,7 @@ article {
 
 }
 
-h1 {
+.examsheading {
     font-family: Helvetica Neue;
     font-weight: 100;
     font-size: 50px;
@@ -113,7 +128,7 @@ h1 {
 
 }
 
-h2 {
+.digitalexams {
     font-family: Helvetica Neue;
     font-weight: 100;
     font-size: 50px;
@@ -137,9 +152,9 @@ h2 {
    padding-left: 55%;
     width: 40%;
 }
-h5{
+.WISEFLOW2 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     font-style: italic;
     text-align: center;
    }
@@ -160,24 +175,24 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  position: relative;
   clear: both;
   height: 150px;
   width: 100%;
   background-color: #777;
-  /*background-color: #292c2f; --> Maybe this color*/
-  /*padding: 10px; */
   text-align: center;
   color: white;
   box-sizing: border-box;
   z-index: -1; /*--> If you change this to 0 or 1, the footer's links won't work*/
   position: fixed;
   bottom: 0;
+  z-index: -1; /*--> If you change this to 0 or 1, the footer's links won't work*/
 }
 
 footer p {
-  /*display: inline-block;*/
+  display: inline-block;
   color: #ffffff;
-  /*vertical-align: middle*/;
+  vertical-align: middle;
 }
 
 footer span {
@@ -188,7 +203,7 @@ footer span {
   height: 800px;
   width: 100%;
   clear: both;
-  z-index: -1;
+  z-index: -2;
 }
 
 footer ul {
@@ -199,7 +214,7 @@ footer ul {
 }
 
 #Footer a{
-  /*display: block;*/
+  display: block;
   position: relative;
 }
 
@@ -210,7 +225,7 @@ footer ul {
   padding-bottom: 5px;
   text-align: center;
   display: list-item;
-  /*margin: 5px auto 0px 50px;*/
+  margin: 5px auto 0px 50px;
 }
 
 .footer-left, .footer-center-left, .footer-center-right, .footer-right {
@@ -223,6 +238,35 @@ footer ul {
   margin-top: 25px;
   font-size: 20px;
   margin-left: 0;
+}
+
+#footer-content{
+  font-size: 18px;
+  width: 100%;
+  background-color:gray;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+footer ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li{
+  display: inline;
+}
+
+footer div{
+  /*padding-left: 60px;*/
+  float: left;
+  width: auto;
 }
 
 .icons-footer {
@@ -254,35 +298,85 @@ footer a:hover {
 footer a:active {
   color: black;
 }
+
+/*.footer-right {
+  text-align: left;
+  float: left;
+  padding-right: 60px;
+}*/
 /*Here ends the styling of the footer.*/
 
 /*The Advice.html styling starts here*/
 #cover-img {
   width: 100%;
-  height: 400px;
+  display: block;
 }
+
 #container {
     box-sizing: border-box;
 }
 
+#main-advices h1 {
+  text-align: center;
+}
+
+/*This is for the li titles in the 5 Study Techniques*/
+.bold-titles {
+  font-weight: bold;
+  font-style: italic;
+}
+
 #left-container-advice {
   width: 60%;
-  height: 100px;
-  background-color: red;
   display: inline-block;
   float: left;
+  font-size: 0.8em;
+  margin-top: 50px;
+  border-right: 1px solid black;
+}
+
+#left-container-advice li {
+  padding-bottom: 20px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #right-container-advice {
-  width: 40%;
-  height: 100px;
-  background-color: blue;
+  width: 35%;
   display: inline-block;
-  float: left;
+  float: right;
+  margin-top: 80px;
+  font-size: 1em;
+}
+
+#food-advice {
+  margin: 20px auto;
+  padding: 5px;
+  width: 75%;
+  height: 200px;
+  /*I want to insert a background image with a link inside a rounded box*/
+  /*border: 1px solid black;
+  border-radius: 50px 50px;*/
+  /*background-image: url("img/foods-that-make-you-smarter.png");*/
+}
+
+#food-advice img {
+  width: 350px;
+  height: 200px;
+}
+
+.video-tips {
+  margin-top: 50px;
+}
+
+.video-tips video {
+  margin-left: 25px;
+  padding-top: 5px;
 }
 /*The Advice styling ends here*/
 
-/*Schedule Tab*/
+/*Schedule Tab Bernardo*/
 .tg  {border-collapse:collapse;border-spacing:0;margin: auto;width: 90%;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -292,5 +386,8 @@ footer a:active {
 .tg .tg-ulos{font-weight:bold;background-color:#d8d8d8;color:#000000;border-color:#000000;text-align:center;vertical-align:top}
 .tg .tg-3ya8{font-weight:bold;background-color:#656565;color:#ffffff;border-color:#656565;text-align:center;vertical-align:top}
 .tg .tg-z9n4{font-weight:bold;background-color:#403e3e;color:#000000;border-color:#000000;text-align:center;vertical-align:top}
-.rules {margin: auto;}
-.rules li {list-style-type: square;}
+
+/*Rules Tab Bernardo*/
+.rules {margin: auto; float: right;}
+.rules > h1 {}
+.rules > ul {font-size: 10px;}
