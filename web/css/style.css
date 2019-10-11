@@ -3,6 +3,7 @@ body{
   padding: 0;
   font-size: 28px;
   background-color: snow;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 div.showcase{
@@ -23,7 +24,7 @@ div.login{
 div.showcase img{
   width: 100%;
   display: block;
-    height: 615px;  
+    height: 615px;
     float:left;
 }
 
@@ -340,13 +341,97 @@ footer a:active {
 }
 /*The Advice styling ends here*/
 
+/*LOGIN FORM starts here */
+#login{
+  display: none;
+  float: right;
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+#super:hover + #login{
+    display: block;
+}
+
+#super{
+  padding-left: 25%;
+}
+
+#login:hover{
+  display: block;
+}
+
+/* help */
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/* Login form ends here */
+
+
 /*Schedule Tab Bernardo*/
-.tg  {border-collapse:collapse;border-spacing:0;margin: auto;width: 90%;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg  {border-collapse:collapse;border-spacing:0;margin: auto;width: 100%;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;height: 90px;width: 15%}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-loqm{font-weight:bold;background-color:#656565;color:#ffffff;border-color:#656565;text-align:left;vertical-align:top}
 .tg .tg-tirw{font-weight:bold;background-color:#d8d8d8;color:#333333;border-color:#333333;text-align:center;vertical-align:top}
-.tg .tg-svus{font-weight:bold;background-color:#656565;color:#515151;border-color:#656565;text-align:center;vertical-align:top}
 .tg .tg-ulos{font-weight:bold;background-color:#d8d8d8;color:#000000;border-color:#000000;text-align:center;vertical-align:top}
 .tg .tg-3ya8{font-weight:bold;background-color:#656565;color:#ffffff;border-color:#656565;text-align:center;vertical-align:top}
 .tg .tg-z9n4{font-weight:bold;background-color:#403e3e;color:#000000;border-color:#000000;text-align:center;vertical-align:top}
