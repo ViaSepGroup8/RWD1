@@ -190,143 +190,6 @@ article{
     
 }
 
-/* Style the footer */
-footer {
-  font-size: 0.6em;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  position: relative;
-  clear: both;
-  height: 150px;
-  width: 100%;
-  background-color: #777;
-  text-align: center;
-  color: white;
-  box-sizing: border-box;
-  z-index: -1; /*--> If you change this to 0 or 1, the footer's links won't work*/
-  position: fixed;
-  bottom: 0;
-  z-index: -1; /*--> If you change this to 0 or 1, the footer's links won't work*/
-}
-
-footer p {
-  display: inline-block;
-  color: #ffffff;
-  vertical-align: middle;
-}
-
-footer span {
-  text-decoration: underline;
-}
-
-.footer-scroll-area {
-  height: 800px;
-  width: 100%;
-  clear: both;
-  z-index: -2;
-}
-
-footer ul {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-}
-
-#Footer a{
-  display: block;
-  position: relative;
-}
-
-#Footer li {
-  list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 5px;
-  text-align: center;
-  display: list-item;
-  margin: 5px auto 0px 50px;
-}
-
-.footer-left, .footer-center-left, .footer-center-right, .footer-right {
-  display: inline;
-  float: left;
-  width: 25%;
-}
-
-.footer-right {
-  margin-top: 25px;
-  font-size: 20px;
-  margin-left: 0;
-}
-
-#footer-content{
-  font-size: 18px;
-  width: 100%;
-  background-color:gray;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-footer a{
-  text-decoration: none;
-  color: black;
-}
-
-footer ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-footer li{
-  display: inline;
-}
-
-footer div{
-  /*padding-left: 60px;*/
-  float: left;
-  width: auto;
-}
-
-.icons-footer {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 3px;
-}
-
-footer a {
-  text-decoration: none;
-  padding: inherit;
-}
-
-footer a:link {
-  color: black;
-}
-
-footer a:visited {
-  color: black;
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: black;
-  text-decoration: underline;
-}
-
-footer a:active {
-  color: black;
-}
-
-/*.footer-right {
-  text-align: left;
-  float: left;
-  padding-right: 60px;
-}*/
-/*Here ends the styling of the footer.*/
-
 /*The Advice.html styling starts here*/
 #cover-img {
   width: 100%;
@@ -485,6 +348,19 @@ span.psw {
 }
 
 /* Login form ends here */
+
+/*Styling fpr the TEAM page starts here [Juan]*/
+.team-member {
+  width: 25%;
+  display: block;
+  float: left;
+}
+
+.member-img {
+
+
+}
+/*TEAM page ends here[Juan]*/
 
 
 /*Schedule Tab Bernardo*/
