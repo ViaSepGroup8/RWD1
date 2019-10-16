@@ -380,10 +380,18 @@ span.psw {
 /*Lenka*/
 
 
-
+#upperbackground {
+    background-color: #ffffff;
+ color: black;
+    height: 80px;
+    width: 100%;
+}
+.table {
+     padding-left: 15%;
+}
 .tg  {
     border-collapse:collapse;
-   margin-top: 6%;
+
     width: 70%;
 
 }
