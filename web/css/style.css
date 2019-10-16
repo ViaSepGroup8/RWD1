@@ -3,7 +3,7 @@
   padding: 0;
   font-size: 28px;
   background-color: snow;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica Neue;
 }
 
 div.showcase{
@@ -27,7 +27,12 @@ div.showcase img{
     height: 615px;
     float:left;
 }
-
+div.showcase2 img{
+  width: 100%;
+  display: block;
+    height: auto;
+    float:left; 
+}
 .Welcome {
     font-family: Helvetica Neue;
     bottom: 150px;
@@ -177,145 +182,13 @@ article{
     font-weight: 100;
 }
 .rules{
-    padding-left: 5%;
+    padding-top: 5%;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-weight:100;
+    font-size: 0.8em;
+    
 }
-
-/* Style the footer */
-footer {
-  font-size: 0.6em;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  position: relative;
-  clear: both;
-  height: 150px;
-  width: 100%;
-  background-color: #777;
-  text-align: center;
-  color: white;
-  box-sizing: border-box;
-  z-index: -1; /*--> If you change this to 0 or 1, the footer's links won't work*/
-  position: fixed;
-  bottom: 0;
-  z-index: -1; /*--> If you change this to 0 or 1, the footer's links won't work*/
-}
-
-footer p {
-  display: inline-block;
-  color: #ffffff;
-  vertical-align: middle;
-}
-
-footer span {
-  text-decoration: underline;
-}
-
-.footer-scroll-area {
-  height: 800px;
-  width: 100%;
-  clear: both;
-  z-index: -2;
-}
-
-footer ul {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-}
-
-#Footer a{
-  display: block;
-  position: relative;
-}
-
-#Footer li {
-  list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 5px;
-  text-align: center;
-  display: list-item;
-  margin: 5px auto 0px 50px;
-}
-
-.footer-left, .footer-center-left, .footer-center-right, .footer-right {
-  display: inline;
-  float: left;
-  width: 25%;
-}
-
-.footer-right {
-  margin-top: 25px;
-  font-size: 20px;
-  margin-left: 0;
-}
-
-#footer-content{
-  font-size: 18px;
-  width: 100%;
-  background-color:gray;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-footer a{
-  text-decoration: none;
-  color: black;
-}
-
-footer ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-footer li{
-  display: inline;
-}
-
-footer div{
-  /*padding-left: 60px;*/
-  float: left;
-  width: auto;
-}
-
-.icons-footer {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 3px;
-}
-
-footer a {
-  text-decoration: none;
-  padding: inherit;
-}
-
-footer a:link {
-  color: black;
-}
-
-footer a:visited {
-  color: black;
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: black;
-  text-decoration: underline;
-}
-
-footer a:active {
-  color: black;
-}
-
-/*.footer-right {
-  text-align: left;
-  float: left;
-  padding-right: 60px;
-}*/
-/*Here ends the styling of the footer.*/
 
 /*The Advice.html styling starts here*/
 #cover-img {
@@ -329,21 +202,26 @@ footer a:active {
 
 #main-advices h1 {
   text-align: center;
+    font-family: Helvetica Neue;
+    font-weight: bold;
 }
 
 /*This is for the li titles in the 5 Study Techniques*/
 .bold-titles {
   font-weight: bold;
   font-style: italic;
+    font-family: Helvetica Neue;
+    
 }
 
 #left-container-advice {
   width: 60%;
   display: inline-block;
   float: left;
-  font-size: 0.8em;
+  font-size: 0.65em;
   margin-top: 50px;
   border-right: 1px solid black;
+    font-family: Helvetica Neue;
 }
 
 #left-container-advice li {
@@ -462,7 +340,7 @@ span.psw {
 @media screen and (max-width: 300px) {
   span.psw {
      display: block;
-     float: none;
+     float: no  ne;
   }
   .cancelbtn {
      width: 100%;
@@ -526,6 +404,6 @@ span.psw {
 .tg .tg-z9n4{font-weight:bold;background-color:#403e3e;color:#000000;border-color:#000000;text-align:center;vertical-align:top}
 
 /*Rules Tab Bernardo*/
-.rules {box-sizing: border-box;border-spacing:0;width: 50%;margin: auto;}
+.rules {box-sizing: border-box;border-spacing:5%;width: 50%;margin: auto;}
 .rules > h1 {margin: 10% 30%;}
 .rules > ul {}
