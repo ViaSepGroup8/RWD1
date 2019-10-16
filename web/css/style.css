@@ -365,21 +365,26 @@ button:hover {
 
 /*Schedule Tab Bernardo*/
 /*Lenka*/
-
+.Table{
+  background-color: darkcyan;
+}
 
 #upperbackground {
-    background-color: #ffffff;
+    background-color: darkcyan;
  color: black;
     height: 80px;
     width: 100%;
 }
-.table {
-     padding-left: 15%;
+.Table {
+  padding-top: 100px;
+  padding-bottom: 170px;
 }
 .tg  {
     border-collapse:collapse;
 
-    width: 70%;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
 
 }
 
