@@ -366,19 +366,12 @@ span.psw {
   margin: 0 auto;
   padding: 5px;
   width: 75%;
-  height: 200px;
-  /*border: 1px solid black;*/
+  height: auto;
   border-radius: 50%;
 }
 
 .member-info {
   text-align: center;
-}
-
-.member-img {
-  /*width: 20%;*/
-  height: auto;
-  border-radius: 50%;
 }
 /*TEAM page ends here[Juan]*/
 
@@ -388,11 +381,11 @@ span.psw {
 
 
 
-.tg  { 
+.tg  {
     border-collapse:collapse;
    margin-top: 6%;
     width: 70%;
-  
+
 }
 
 .tg td{font-family:Helvetica Neue;
