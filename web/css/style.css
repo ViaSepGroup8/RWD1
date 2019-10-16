@@ -334,6 +334,19 @@ span.psw {
 
 /* Login form ends here */
 
+/*Styling fpr the TEAM page starts here [Juan]*/
+.team-member {
+  width: 25%;
+  display: block;
+  float: left;
+}
+
+.member-img {
+
+
+}
+/*TEAM page ends here[Juan]*/
+
 
 /*Schedule Tab Bernardo*/
 .tg  {border-collapse:collapse;border-spacing:0;margin: auto;width: 100%;}
