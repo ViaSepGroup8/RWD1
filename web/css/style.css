@@ -253,6 +253,7 @@ article{
 #food-advice img {
   width: 350px;
   height: 200px;
+  border-radius: 5% 5%;
 }
 
 .video-tips {
@@ -357,41 +358,37 @@ span.psw {
   margin: 100px auto;
 }
 
-.contacts{
+#contacts{
   text-align: center;
+  font-size: 20px;
+  font-family: Trattatello;
+}
+
+#contacts h1{
+  font-size: 80px;
+  font-weight: 100;
+}
+
+#contacts a {
+  color: black;
+}
+
+.team-member {
+  margin-top: 0;
 }
 
 .member-img {
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 5px;
   width: 75%;
-  height: 200px;
-  border: 1px solid black;
+  height: auto;
   border-radius: 50%;
 }
 
 .member-info {
   text-align: center;
+  font-size: 1.2em;
 }
-
-.bernardo-img {
-  width: 20%;
-  height: auto;
-  border-radius: 50%;
-}
-
-.jano-img {
-  background-image: url("img/bernardo-img.jpg");
-}
-
-.lenka-img {
-  background-image: url();
-}
-
-.juan-img {
-  background-image: url();
-}
-
 /*TEAM page ends here[Juan]*/
 
 
@@ -399,12 +396,20 @@ span.psw {
 /*Lenka*/
 
 
-
-.tg  { 
+#upperbackground {
+    background-color: #ffffff;
+ color: black;
+    height: 80px;
+    width: 100%;
+}
+.table {
+     padding-left: 15%;
+}
+.tg  {
     border-collapse:collapse;
-   margin-top: 6%;
+
     width: 70%;
-  
+
 }
 
 .tg td{font-family:Helvetica Neue;
