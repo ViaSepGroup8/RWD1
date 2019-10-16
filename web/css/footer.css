@@ -3,7 +3,7 @@
   width: 100%;
   font-size: 18px;
   background-color: #242729;
-  color: #576a7a;
+  color: #7e94a6;
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -14,7 +14,7 @@ footer a{
 }
 
 footer a:hover{
-  color: #CCC
+  color: #EEE
 }
 
 footer ul{
