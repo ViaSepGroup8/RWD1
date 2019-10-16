@@ -361,6 +361,20 @@ span.psw {
 #contacts{
   text-align: center;
   font-size: 20px;
+  font-family: Trattatello;
+}
+
+#contacts h1{
+  font-size: 80px;
+  font-weight: 100;
+}
+
+#contacts a {
+  color: black;
+}
+
+.team-member {
+  margin-top: 0;
 }
 
 .member-img {
@@ -373,6 +387,7 @@ span.psw {
 
 .member-info {
   text-align: center;
+  font-size: 1.2em;
 }
 /*TEAM page ends here[Juan]*/
 
