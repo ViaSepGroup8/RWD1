@@ -31,7 +31,7 @@ div.showcase2 img{
   width: 100%;
   display: block;
     height: auto;
-    float:left; 
+    float:left;
 }
 .Welcome {
     font-family: Helvetica Neue;
@@ -187,7 +187,7 @@ article{
     font-family: Helvetica Neue;
     font-weight:100;
     font-size: 0.8em;
-    
+
 }
 
 /*The Advice.html styling starts here*/
@@ -211,7 +211,7 @@ article{
   font-weight: bold;
   font-style: italic;
     font-family: Helvetica Neue;
-    
+
 }
 
 #left-container-advice {
@@ -357,8 +357,8 @@ span.psw {
   margin: 100px auto;
 }
 
-.contacts h1 {
-  margin-top: 20px;
+.contacts{
+  text-align: center;
 }
 
 .member-img {
@@ -375,11 +375,13 @@ span.psw {
 }
 
 .bernardo-img {
-  background-image: url();
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
 }
 
 .jano-img {
-  background-image: url();
+  background-image: url("img/bernardo-img.jpg");
 }
 
 .lenka-img {
