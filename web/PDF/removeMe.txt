@@ -1,0 +1,41 @@
+#footer-content{
+  font-size: 18px;
+  width: 100%;
+  background-color:gray;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+footer ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li{
+  display: inline;
+}
+
+footer div{
+  padding-left: 60px;
+  float: left;
+  width: auto;
+}
+
+.icons-footer {
+@ -266,6 +296,12 @@ footer a:hover {
+footer a:active {
+  color: black;
+}
+
+.footer-right {
+  text-align: left;
+  float: right;
+  padding-right: 60px;
+}
+/*Here ends the styling of the footer.*/
