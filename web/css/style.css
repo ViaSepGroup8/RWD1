@@ -253,6 +253,7 @@ article{
 #food-advice img {
   width: 350px;
   height: 200px;
+  border-radius: 5% 5%;
 }
 
 .video-tips {
