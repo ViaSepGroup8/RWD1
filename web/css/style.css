@@ -357,16 +357,17 @@ span.psw {
   margin: 100px auto;
 }
 
-.contacts{
+#contacts{
   text-align: center;
+  font-size: 20px;
 }
 
 .member-img {
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 5px;
   width: 75%;
   height: 200px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   border-radius: 50%;
 }
 
@@ -374,24 +375,11 @@ span.psw {
   text-align: center;
 }
 
-.bernardo-img {
-  width: 20%;
+.member-img {
+  /*width: 20%;*/
   height: auto;
   border-radius: 50%;
 }
-
-.jano-img {
-  background-image: url("img/bernardo-img.jpg");
-}
-
-.lenka-img {
-  background-image: url();
-}
-
-.juan-img {
-  background-image: url();
-}
-
 /*TEAM page ends here[Juan]*/
 
 
