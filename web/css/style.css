@@ -3,7 +3,7 @@
   padding: 0;
   font-size: 28px;
   background-color: snow;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica Neue;
 }
 
 div.showcase{
@@ -27,7 +27,12 @@ div.showcase img{
     height: 615px;
     float:left;
 }
-
+div.showcase2 img{
+  width: 100%;
+  display: block;
+    height: auto;
+    float:left; 
+}
 .Welcome {
     font-family: Helvetica Neue;
     bottom: 150px;
@@ -177,7 +182,12 @@ article{
     font-weight: 100;
 }
 .rules{
-    padding-left: 5%;
+    padding-top: 5%;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-weight:100;
+    font-size: 0.8em;
+    
 }
 
 /* Style the footer */
@@ -329,21 +339,26 @@ footer a:active {
 
 #main-advices h1 {
   text-align: center;
+    font-family: Helvetica Neue;
+    font-weight: bold;
 }
 
 /*This is for the li titles in the 5 Study Techniques*/
 .bold-titles {
   font-weight: bold;
   font-style: italic;
+    font-family: Helvetica Neue;
+    
 }
 
 #left-container-advice {
   width: 60%;
   display: inline-block;
   float: left;
-  font-size: 0.8em;
+  font-size: 0.65em;
   margin-top: 50px;
   border-right: 1px solid black;
+    font-family: Helvetica Neue;
 }
 
 #left-container-advice li {
@@ -462,7 +477,7 @@ span.psw {
 @media screen and (max-width: 300px) {
   span.psw {
      display: block;
-     float: none;
+     float: no  ne;
   }
   .cancelbtn {
      width: 100%;
@@ -483,6 +498,6 @@ span.psw {
 .tg .tg-z9n4{font-weight:bold;background-color:#403e3e;color:#000000;border-color:#000000;text-align:center;vertical-align:top}
 
 /*Rules Tab Bernardo*/
-.rules {box-sizing: border-box;border-spacing:0;width: 50%;margin: auto;}
+.rules {box-sizing: border-box;border-spacing:5%;width: 50%;margin: auto;}
 .rules > h1 {margin: 10% 30%;}
 .rules > ul {}
