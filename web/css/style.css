@@ -476,12 +476,42 @@ span.psw {
   width: 25%;
   display: block;
   float: left;
+  margin: 100px auto;
+}
+
+.contacts h1 {
+  margin-top: 20px;
 }
 
 .member-img {
-
-
+  margin: 20px auto;
+  padding: 5px;
+  width: 75%;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
 }
+
+.member-info {
+  text-align: center;
+}
+
+.bernardo-img {
+  background-image: url();
+}
+
+.jano-img {
+  background-image: url();
+}
+
+.lenka-img {
+  background-image: url();
+}
+
+.juan-img {
+  background-image: url();
+}
+
 /*TEAM page ends here[Juan]*/
 
 
