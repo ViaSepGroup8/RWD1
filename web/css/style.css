@@ -264,6 +264,10 @@ article{
   margin-left: 25px;
   padding-top: 5px;
 }
+
+.highlight {
+  background-color: #FFFF00;
+}
 /*The Advice styling ends here*/
 
 /*LOGIN FORM starts here */
