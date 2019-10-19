@@ -117,7 +117,7 @@ div.studying img {
 }
 
 section{
-  clear: both;
+  /*clear: both;*/
   background-color: snow;
 }
 
@@ -414,3 +414,61 @@ button:hover {
 .rules {box-sizing: border-box;border-spacing:5%;width: 50%;margin: auto;}
 .rules > h1 {margin: 10% 30%;}
 .rules > ul {}
+
+/*Front page [Juan] Starts here*/
+.welcome {
+  padding: 30px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.news {
+  margin-top: 100px;
+  width: 45%;
+  display: inline-block;
+  float: left;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: 30px;
+  font-size: 0.8em;
+}
+
+.news span, .faq span{
+  text-align: center;
+  margin-left: 50px;
+  /*background-color: #FFFF00;*/
+}
+
+.faq {
+  margin-right: 30px;
+  display: inline-block;
+  float: right;
+  width: 45%;
+  border: 1px solid black;
+  border-radius: 50px;
+  font-size: 0.8em;
+}
+
+.remember-block {
+  width: 30%;
+  border: 1px solid black;
+  display: inline-block;
+  float: left;
+  color: pink;
+}
+
+p#gif-right{
+  display: inline-block;
+  float: right;
+  margin-right: 100px;
+}
+
+.special-highlight {
+  background-image: url("../img/brush-stroke-banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  padding: 8px 0;
+  color: #FFFF00;
+}
+/*Front page ends here*/
