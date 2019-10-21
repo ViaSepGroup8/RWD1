@@ -431,15 +431,15 @@ article{
   width: 45%;
   display: inline-block;
   float: left;
-  border: 1px solid black;
-  border-radius: 50px;
+  /*border: 1px solid black;
+  border-radius: 50px;*/
   padding: 15px;
   margin-left: 30px;
   font-size: 0.75em;
   margin-bottom: 40px;
 }
 
-.news li {
+.news li, .faq li {
   margin-top: 15px;
 }
 
@@ -454,8 +454,8 @@ article{
   display: inline-block;
   float: right;
   width: 45%;
-  border: 1px solid black;
-  border-radius: 50px;
+  /*border: 1px solid black;
+  border-radius: 50px;*/
   font-size: 0.75em;
   margin-bottom: 40px;
 }
@@ -484,5 +484,9 @@ img#gif-right{
   background-repeat: no-repeat;
   background-size: 100% 95%;
   padding: 8px 0;
+}
+
+.special-highlight .news {
+  background-size: 30% 45%;
 }
 /*Front page ends here*/
