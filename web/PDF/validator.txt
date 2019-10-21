@@ -1,2 +1,1 @@
 "file:/home/jan/github/RWD1/web/realRules.html":53.26-53.113: error: Bad value “100%” for attribute “width” on element “img”: Expected a digit but saw “%” instead.
-"file:/home/jan/github/RWD1/web/ExamTypes.html":55.3-55.27: info warning: Article lacks heading. Consider using “h2”-“h6” elements to add identifying headings to all articles.
