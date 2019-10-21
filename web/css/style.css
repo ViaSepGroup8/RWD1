@@ -23,13 +23,14 @@ div.login{
 div.showcase img{
   width: 100%;
   display: block;
-    float:left;
+  float:left;
 }
+
 div.showcase2 img{
   width: 100%;
   display: block;
-    height: auto;
-    float:left;
+  height: auto;
+  float:left;
 }
 
 .Welcome {
