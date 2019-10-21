@@ -490,4 +490,8 @@ img#gif-right{
 .news-head {
   background-size: 20% 95%;
 }
+
+#no-bullet {
+  list-style-type: none;
+}
 /*Front page ends here*/
