@@ -2,22 +2,7 @@
 "file:/home/jan/github/RWD1/web/Advice.html":104.7-104.32: info warning: Article lacks heading. Consider using “h2”-“h6” elements to add identifying headings to all articles.
 "file:/home/jan/github/RWD1/web/Advice.html":110.7-110.34: info warning: Article lacks heading. Consider using “h2”-“h6” elements to add identifying headings to all articles.
 "file:/home/jan/github/RWD1/web/Advice.html":116.7-116.34: info warning: Article lacks heading. Consider using “h2”-“h6” elements to add identifying headings to all articles.
-"file:/home/jan/github/RWD1/web/index.html":79.9-79.14: error: Text not allowed in element “ul” in this context.
-"file:/home/jan/github/RWD1/web/index.html":79.15-79.50: error: Text not allowed in element “ul” in this context.
-"file:/home/jan/github/RWD1/web/index.html":79.51-79.54: error: Element “br” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
-"file:/home/jan/github/RWD1/web/index.html":79.55-80.8: error: Text not allowed in element “ul” in this context.
-"file:/home/jan/github/RWD1/web/index.html":81.9-81.14: error: Text not allowed in element “ul” in this context.
-"file:/home/jan/github/RWD1/web/index.html":81.15-81.52: error: Text not allowed in element “ul” in this context.
-"file:/home/jan/github/RWD1/web/index.html":81.53-81.56: error: Element “br” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
-"file:/home/jan/github/RWD1/web/index.html":81.58-81.81: error: Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
-"file:/home/jan/github/RWD1/web/index.html":81.94-82.4: error: Text not allowed in element “ul” in this context.
-"file:/home/jan/github/RWD1/web/index.html":82.55-83.47: error: Text not allowed in element “ul” in this context.
-"file:/home/jan/github/RWD1/web/index.html":83.48-83.51: error: Element “br” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
-"file:/home/jan/github/RWD1/web/index.html":83.52-83.94: error: Text not allowed in element “ul” in this context.
-"file:/home/jan/github/RWD1/web/index.html":83.95-83.98: error: Element “br” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
-"file:/home/jan/github/RWD1/web/index.html":83.99-83.109: error: Text not allowed in element “ul” in this context.
-"file:/home/jan/github/RWD1/web/index.html":83.110-83.134: error: Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
-"file:/home/jan/github/RWD1/web/index.html":83.144-84.51: error: Text not allowed in element “ul” in this context.
+"file:/home/jan/github/RWD1/web/index.html":83.176-84.51: error: Text not allowed in element “ul” in this context.
 "file:/home/jan/github/RWD1/web/index.html":84.52-84.55: error: Element “br” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
 "file:/home/jan/github/RWD1/web/index.html":84.56-84.81: error: Text not allowed in element “ul” in this context.
 "file:/home/jan/github/RWD1/web/index.html":84.82-84.126: error: Element “a” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
