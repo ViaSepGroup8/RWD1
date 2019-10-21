@@ -1,14 +1,9 @@
- body{
+body{
   margin: 0;
   padding: 0;
   font-size: 28px;
   background-color: snow;
   font-family: Helvetica Neue;
-}
-
-div.showcase{
-/*  /background-color: #333;*/
-/*  background-color: red;*/
 }
 
 div.login{
@@ -34,16 +29,16 @@ div.showcase2 img{
 }
 
 .Welcome {
-    font-family: Helvetica Neue;
-    bottom: 150px;
-    left: 50px;
-    color: black;
-    font-size: 50px;
+  font-family: Helvetica Neue;
+  bottom: 150px;
+  left: 50px;
+  color: black;
+  font-size: 50px;
 }
 
 div.studying img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 .navbar{
@@ -122,67 +117,67 @@ div.studying img {
  /* Exam types */
 #Examtypes {
   font-family: Helvetica Neue;
-    font-size: 1em;
-    padding-left:5%;
-    float:left;
+  font-size: 1em;
+  padding-left:5%;
+  float:left;
 
 }
 
 .examsheading {
-    font-family: Helvetica Neue;
-    font-weight: 100;
-    font-size: 50px;
-    color: grey;
-    padding-left: 15%;
-    float:left;
-
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  font-size: 50px;
+  color: grey;
+  padding-left: 15%;
+  float:left;
 }
 
 .digitalexams {
-    font-family: Helvetica Neue;
-    font-weight: 100;
-    font-size: 50px;
-    color: grey;
-    padding-left: 60%;
-
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  font-size: 50px;
+  color: grey;
+  padding-left: 60%;
 }
 
 .firstblock {
-    font-family: Helvetica Neue;
-    font-weight: 100;
-    font-size: 0.6em;
-    width:43%;
-    float:left;
-   padding-left: 0;
-    }
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  font-size: 0.6em;
+  width:43%;
+  float:left;
+  padding-left: 0;
+}
+
 .Digital {
-    font-family: Helvetica Neue;
-    font-weight: 100;
-    font-size: 0.6em;
-   padding-left: 55%;
-    width: 40%;
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  font-size: 0.6em;
+  padding-left: 55%;
+  width: 40%;
 }
 .WISEFLOW2 {
-    font-weight: bold;
-    font-size: 20px;
-    font-style: italic;
-    text-align: center;
-   }
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
 .Quote {
-    font-size: 60px;
-    padding-top: 200px;
-    padding-bottom: 250px;
-    text-align: center;
-    font-weight: 100;
+  font-size: 60px;
+  padding-top: 200px;
+  padding-bottom: 250px;
+  text-align: center;
+  font-weight: 100;
 }
-.rules{
-    padding-top: 5%;
-    text-align: left;
-    font-family: Helvetica Neue;
-    font-weight:100;
-    font-size: 1em;
 
+.rules{
+  padding-top: 5%;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight:100;
+  font-size: 1em;
 }
+
 /*end of Exam Types*/
 /*The Advice.html styling starts here*/
 #cover-img {
@@ -191,21 +186,20 @@ div.studying img {
 }
 
 #container {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #main-advices h1 {
   text-align: center;
-    font-family: Helvetica Neue;
-    font-weight: bold;
+  font-family: Helvetica Neue;
+  font-weight: bold;
 }
 
 /*This is for the li titles in the 5 Study Techniques*/
 .bold-titles {
   font-weight: bold;
   font-style: italic;
-    font-family: Helvetica Neue;
-
+  font-family: Helvetica Neue;
 }
 
 #left-container-advice {
@@ -301,7 +295,7 @@ input[type=text], input[type=password] {
 }
 
 label{
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 
 button {
@@ -370,34 +364,37 @@ button:hover {
 }
 
 #upperbackground {
-    background-color: darkcyan;
- color: black;
-    height: 80px;
-    width: 100%;
+  background-color: darkcyan;
+  color: black;
+  height: 80px;
+  width: 100%;
 }
 .Table {
   padding-top: 100px;
   padding-bottom: 170px;
 }
-.tg  {
-    border-collapse:collapse;
 
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
+.tg {
+  border-collapse:collapse;
 
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
 }
 
-.tg td{font-family:Helvetica Neue;
-    font-size:14px;
-    padding:10px 5px;
-    border-style:solid;
-    border-width:1px;
-    overflow:hidden;
-    word-break:normal;
-    border-color:black;
-    height: 25px;
-    width: 15%}
+.tg td{
+  font-family:Helvetica Neue;
+  font-size:14px;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:black;
+  height: 25px;
+  width: 15%
+}
+
 .tg th{font-family:Helvetica Neue;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-loqm{font-weight:bold;background-color:#656565;color:#ffffff;border-color:#656565;text-align:left;vertical-align:top}
 .tg .tg-tirw{font-weight:bold;background-color:#d8d8d8;color:#333333;border-color:#333333;text-align:center;vertical-align:top}
