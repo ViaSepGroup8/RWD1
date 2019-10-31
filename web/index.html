@@ -6,85 +6,116 @@
   <meta name="description" content="Via university exam planner">
   <meta name="author" content="">
   <title>Via exam planner</title>
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/dropdown.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <!--<script src="https://kit.fontawesome.com/c2f9623b79.js" crossorigin="anonymous"></script>-->
+
+  <!-- BOOTSTRAP 4-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- BOOTSTRAP 4-->
+
+  <link rel="stylesheet" href="css/navbar.css">
 </head>
 
 <body>
-  <div class="navbar">
-    <div class="left">
-      <a href="ExamTypes.html">Exam Types</a>
-      <a href="realRules.html">Rules</a>
-      <a href="Advice.html">Advices</a>
-      <a href="Schedule.html">Schedule</a>
-    </div>
-    <div class="center">
-      <a href="index.html"><img src="svg/via_logo.svg" alt="Via logo"></a>
-    </div>
 
-    <div class="right">
-      <a href="index.html">Home<!--<i class="fas fa-home"></i>--></a>
-      <a href="Contact.html">Team<!--<i class="fas fa-phone"></i>--></a>
-      <a href="mailto:horsens.studyadm.eng@via.dk">Contact<!--<i class="far fa-envelope"></i>--></a>
-      <a href="#news" id="super">Login<!--<i class="fas fa-user-circle"></i>--></a>
-
-      <div id="login">
-        <form action="index.html" method="post">
-            <label><b>Username</b></label>
-            <input type="text" placeholder="Username" name="uname" required>
-
-            <label><b>Password</b></label>
-            <input type="password" placeholder="Password" name="psw" required>
-
-            <button type="submit">Login</button>
-            <!--
-            <label>
-              <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-                  -->
-        </form>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="ExamTypes.html">Exam&nbspTypes</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="realRules.html">Rules</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Advice.html">Advices</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Schedule.html">Schedule</a>
+              </li>
+          </ul>
       </div>
-    </div>
-  </div>
+      <div class="collapse navbar-collapse order-last" id="account">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<!--<i class="fas fa-home"></i>--></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Team<!--<i class="fas fa-phone"></i>--></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mailto:horsens.studyadm.eng@via.dk">Contact<!--<i class="far fa-envelope"></i>--></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#news" id="super">Login<!--<i class="fas fa-user-circle"></i>--></a>
+            </li>
+        </ul>
+      </div>
+      <div class="d-flex w-100">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+          </button>
 
+          <a class="navbar-brand text-center w-100" href="index.html"><img src="svg/via_logo.svg" alt="Via logo" style="width:200px;"></a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#account">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+      </div>
+  </nav>
   <div class="showcase"><img src="img/via_bg.png" alt= "group photo"></div>
+
+
   <section>
     <div class= "welcome">
-      <br>
       <h1> Welcome to the VIA Exam planner!</h1>
       <p>Here you will have fast access to all the information necessary for the exams.</p>
     </div>
-    <div class="news">
-      <h2 class="special-highlight news-head">NEWS</h2>
-      <ul>
-        <li>Exam period will begin on 5th January!</li>
-        <li>New schedule for the MSE-1Z exam</li>
-        <li>SDJ-1z exam CANCELLED</li>
-        <li>New schedule for the RWD-1Y exam</li>
-        <li>Examinator changed for SDJ3</li>
-        <li>Exam period will end the 24th of January</li>
-        <li>Deadline for Bachelor Projects is 25th January</li>
-        <li>Presentations for SEP will be on 20th December</li>
-        <li>Room changed for IT-NES1 - New room 302.b</li>
-        <li>IT-DNP1 exam moved to 10th January</li>
-      </ul>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <h2 class="special-highlight news-head">NEWS</h2>
+          <ul>
+            <li>Exam period will begin on 5th January!</li>
+            <li>New schedule for the MSE-1Z exam</li>
+            <li>SDJ-1z exam CANCELLED</li>
+            <li>New schedule for the RWD-1Y exam</li>
+            <li>Examinator changed for SDJ3</li>
+            <li>Exam period will end the 24th of January</li>
+            <li>Deadline for Bachelor Projects is 25th January</li>
+            <li>Presentations for SEP will be on 20th December</li>
+            <li>Room changed for IT-NES1 - New room 302.b</li>
+            <li>IT-DNP1 exam moved to 10th January</li>
+          </ul>
+        </div>
+
+        <div class="col-md">
+          <h2><span class="special-highlight">FAQs</span></h2>
+          <ul>
+            <li>Where should I upload my SEP Project?<br>
+            &nbsp;The SEP Project must be uploaded to <br>Wiseflow as a zip file.</li>
+            <li>Where can I find my exam's classroom?<br>
+            &nbsp;You will find that information in the <br> <a href="Schedule.html">Schedule</a> page</li>
+            <li>What if I am sick on the day of exam?<br>
+            In this case, please contact the study <br> administration, and provide medical proof.<br> Check the <a href="realRules.html">rules</a> page for more information.</li>
+            <li>If you have more questions, please contact <br> the study administration <a href="mailto:horsens.studyadm.eng@via.dk">here</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="faq">
-      <h2><span class="special-highlight">FAQs</span></h2>
-      <ul>
-        <li>Where should I upload my SEP Project?<br>
-        &nbsp;The SEP Project must be uploaded to <br>Wiseflow as a zip file.</li>
-        <li>Where can I find my exam's classroom?<br>
-        &nbsp;You will find that information in the <br> <a href="Schedule.html">Schedule</a> page</li>
-        <li>What if I am sick on the day of exam?<br>
-        In this case, please contact the study <br> administration, and provide medical proof.<br> Check the <a href="realRules.html">rules</a> page for more information.</li>
-        <li>If you have more questions, please contact <br> the study administration <a href="mailto:horsens.studyadm.eng@via.dk">here</a></li>
-      </ul>
-    </div>
-    <br>
+
+    <br><br>
+
     <!--
     <div class="remember-frontpage">
       <h2><span class="special-highlight">Remember...</span></h2>

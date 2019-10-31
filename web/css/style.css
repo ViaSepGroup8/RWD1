@@ -41,79 +41,6 @@ div.studying img {
   display: block;
 }
 
-.navbar{
-  background-color: rgba(90,90,90,0.5);
-  text-align: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 80px;
-}
-
-.navbar:hover {
-  background-color: rgba(90,90,90,0.9);
-  color: black;
-}
-
-.navbar .iteam{
-  height: 80px;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.navbar a {
-  text-align: center;
-  vertical-align: middle;
-  line-height: 80px;
-  float: inherit;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 0px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar .left a:hover {
-  background: #ddd;
-  color: black;
-}
-
-.navbar .right a:hover {
-  color: darkgray
-}
-
-.navbar .left{
-  float: left;
-  width: 37%;
-}
-
-.navbar .right{
-  float: right;
-    width: 30%;
-}
-
-.navbar .center{
-  height: inherit;
-  width: 33%;
-  text-align: left;
-  vertical-align: bottom;
-  float: left;
-}
-
-.navbar .center img{
-  height: 60px;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
  /* Exam types */
 #Examtypes {
   font-family: Helvetica Neue;
@@ -282,7 +209,7 @@ div.studying img {
 #login:hover{
   display: block;
 }
-
+/*
 input[type=text], input[type=password] {
   font-size: 0.8em;
   width: 100%;
@@ -313,7 +240,9 @@ button:hover {
   opacity: 0.8;
 }
 
-/* Login form ends here */
+*/
+
+/* Login form ends here
 
 /*Styling fpr the TEAM page starts here [Juan]*/
 .team-member {
