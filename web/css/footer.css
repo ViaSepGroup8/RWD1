@@ -1,10 +1,12 @@
-#footer-content{
-  width: 100%;
+.page-footer{
+  background-color: #242729;
+}
+
+.footer-content{
   font-size: 18px;
   background-color: #242729;
   color: #7e94a6;
-  padding: 0 !important;
-  margin: 0 !important;
+  padding-top: 16px;
 }
 
 footer a{
@@ -20,21 +22,11 @@ footer ul{
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 16px;
 }
 
-/*
-footer li{
-  display: inline;
-}
-*/
 
-footer div{
-  padding-left: 60px;
-  padding-bottom: 30px;
-  padding-top: 10px;
-  float: left;
-  width: auto;
-}
+
 
 .icons-footer {
 @ -266,6 +296,12 @@ footer a:hover {
