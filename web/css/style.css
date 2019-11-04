@@ -55,7 +55,6 @@ div.studying img {
   font-weight: 100;
   font-size: 50px;
   color: grey;
-  padding-left: 15%;
   float:left;
 }
 
@@ -64,14 +63,12 @@ div.studying img {
   font-weight: 100;
   font-size: 50px;
   color: grey;
-  padding-left: 60%;
 }
 
 .firstblock {
   font-family: Helvetica Neue;
   font-weight: 100;
   font-size: 0.6em;
-  width:43%;
   float:left;
   padding-left: 0;
 }
@@ -80,8 +77,6 @@ div.studying img {
   font-family: Helvetica Neue;
   font-weight: 100;
   font-size: 0.6em;
-  padding-left: 55%;
-  width: 40%;
 }
 .WISEFLOW2 {
   font-weight: bold;
