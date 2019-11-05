@@ -1,0 +1,48 @@
+/*LOGIN FORM starts here */
+
+body{
+  background-color: #444 !important;
+}
+
+#login{
+  margin-top: 250px;
+  margin-bottom: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(60,60,60,0.9);
+  max-width: 450px;
+  height: auto;
+  text-align: left;
+  color: #EEE;
+  padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  font-size: 0.8em;
+  width: 100%;
+  padding: 8px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #BBB;
+  border-style: none;
+}
+
+label{
+  font-size: 0.9em;
+}
+
+#loginButton{
+  background-color: darkcyan;
+  color: #EEE;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 0.8em;
+}
+
+#loginButton:hover {
+  opacity: 0.8;
+}

@@ -6,6 +6,7 @@
   <meta name="description" content="Via university exam planner">
   <meta name="author" content="">
   <title>Via exam planner</title>
+  <link rel="stylesheet" href="css/login.css">
   <link rel="stylesheet" href="css/dropdown.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/style.css">
@@ -27,7 +28,7 @@
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
       <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarNav">
           <ul class="navbar-nav">
-              <li class="nav-item">
+              <li class="nav-item active">
                   <a class="nav-link" href="ExamTypes.html">Exam&nbspTypes</a>
               </li>
               <li class="nav-item">
@@ -58,75 +59,35 @@
         </ul>
       </div>
       <div class="d-flex w-100">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav,#account">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand text-center w-100" href="index.html"><img src="svg/via_logo.svg" alt="Via logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav,#account">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <a class="navbar-brand text-center w-100" href="index.html"><img src="svg/via_logo.svg" alt="Via logo" style="width:200px;"></a>
+
       </div>
   </nav>
 
-  <div class="showcase"><img src="img/via_bg.png" alt= "group photo"></div>
 
-  <section>
-    <div class= "welcome">
-      <h1> Welcome to the VIA Exam planner!</h1>
-      <p>Here you will have fast access to all the information necessary for the exams.</p>
-    </div>
+  <div id="login">
+    <form action="index.html" method="post">
+        <label><b>Username</b></label>
+        <input type="text" placeholder="Username" name="uname" required>
 
+        <label><b>Password</b></label>
+        <input type="password" placeholder="Password" name="psw" required>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md">
-          <h2 class="special-highlight news-head">NEWS</h2>
-          <ul>
-            <li>Exam period will begin on 5th January!</li>
-            <li>New schedule for the MSE-1Z exam</li>
-            <li>SDJ-1z exam CANCELLED</li>
-            <li>New schedule for the RWD-1Y exam</li>
-            <li>Examinator changed for SDJ3</li>
-            <li>Exam period will end the 24th of January</li>
-            <li>Deadline for Bachelor Projects is 25th January</li>
-            <li>Presentations for SEP will be on 20th December</li>
-            <li>Room changed for IT-NES1 - New room 302.b</li>
-            <li>IT-DNP1 exam moved to 10th January</li>
-          </ul>
-        </div>
-
-        <div class="col-md">
-          <h2><span class="special-highlight">FAQs</span></h2>
-          <ul>
-            <li>Where should I upload my SEP Project?<br>
-            &nbsp;The SEP Project must be uploaded to <br>Wiseflow as a zip file.</li>
-            <li>Where can I find my exam's classroom?<br>
-            &nbsp;You will find that information in the <br> <a href="Schedule.html">Schedule</a> page</li>
-            <li>What if I am sick on the day of exam?<br>
-            In this case, please contact the study <br> administration, and provide medical proof.<br> Check the <a href="realRules.html">rules</a> page for more information.</li>
-            <li>If you have more questions, please contact <br> the study administration <a href="mailto:horsens.studyadm.eng@via.dk">here</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <br><br>
-
-    <!--
-    <div class="remember-frontpage">
-      <h2><span class="special-highlight">Remember...</span></h2>
-      <ul>
-        <li>Read the criteria and instructions for the exams</li>
-        <li>You have three attempts for each exam</li>
-        <li>Check your exams' schedule, there may be changes.</li>
-        <li>You are automatically registered for all ordinary exams</li>
-        <li>Do NOT cheat, you'll be in trouble...</li>
-      </ul>
-    </div>
-  -->
-    <!--<img id="gif-right" src="img/you-got-this.gif" alt="gif you got this">-->
-  </section>
-
+        <button id="loginButton" type="submit">Login</button>
+        <!--
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+              -->
+    </form>
+  </div>
 
     <footer class="page-footer">
-      <div class="container">
+      <div class="container" style="background-color:redd">
         <div class="row footer-content">
           <div class="col-6 col-md-3">
             <p><strong>Personal</strong></p>

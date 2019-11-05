@@ -6,6 +6,10 @@ body{
   font-family: Helvetica Neue;
 }
 
+.navbar-brand img{
+  width: 200px;
+}
+
 div.login{
   display: none;
   float: right;
@@ -181,63 +185,6 @@ div.studying img {
 }
 /*The Advice styling ends here*/
 
-/*LOGIN FORM starts here */
-#login{
-  display: none;
-  float: right;
-  background-color: rgba(60,60,60,0.9);
-  width: 80%;
-  height: auto;
-  text-align: left;
-  color: #EEE;
-  padding: 16px;
-}
-
-#super:hover + #login{
-    display: block;
-}
-
-#super{
-  padding-left: 25%;
-}
-
-#login:hover{
-  display: block;
-}
-/*
-input[type=text], input[type=password] {
-  font-size: 0.8em;
-  width: 100%;
-  padding: 8px 8px;
-  margin: 8px 0;
-  display: inline-block;
-  box-sizing: border-box;
-  background-color: #BBB;
-  border-style: none;
-}
-
-label{
-  font-size: 0.9em;
-}
-
-button {
-  background-color: darkcyan;
-  color: #EEE;
-  padding: 8px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  font-size: 0.8em;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-*/
-
-/* Login form ends here
 
 /*Styling fpr the TEAM page starts here [Juan]*/
 .team-member {
@@ -295,7 +242,7 @@ button:hover {
 }
 .Table {
   padding-top: 100px;
-  padding-bottom: 170px;
+  padding-bottom: 200px;
 }
 
 .tg {
