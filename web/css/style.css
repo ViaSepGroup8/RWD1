@@ -185,49 +185,6 @@ div.studying img {
 }
 /*The Advice styling ends here*/
 
-
-/*Styling fpr the TEAM page starts here [Juan]*/
-.team-member {
-  width: 25%;
-  display: block;
-  float: left;
-  margin: 100px auto;
-}
-
-#contacts{
-  text-align: center;
-  font-size: 20px;
-  font-family: Trattatello;
-}
-
-#contacts h1{
-  font-size: 80px;
-  font-weight: 100;
-}
-
-#contacts a {
-  color: black;
-}
-
-.team-member {
-  margin-top: 0;
-}
-
-.member-img {
-  margin: 0 auto;
-  padding: 5px;
-  width: 75%;
-  height: auto;
-  border-radius: 50%;
-}
-
-.member-info {
-  text-align: center;
-  font-size: 1.2em;
-}
-/*TEAM page ends here[Juan]*/
-
-
 /*Schedule Tab Bernardo*/
 /*Lenka*/
 .Table{
