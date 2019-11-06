@@ -51,7 +51,6 @@ div.studying img {
   font-size: 1em;
   padding-left:5%;
   float:left;
-
 }
 
 .examsheading {
@@ -72,7 +71,7 @@ div.studying img {
 .firstblock {
   font-family: Helvetica Neue;
   font-weight: 100;
-  font-size: 0.6em;
+  font-size: 1em;
   float:left;
   padding-left: 0;
 }
@@ -80,7 +79,7 @@ div.studying img {
 .Digital {
   font-family: Helvetica Neue;
   font-weight: 100;
-  font-size: 0.6em;
+  font-size: 1em;
 }
 .WISEFLOW2 {
   font-weight: bold;
@@ -152,6 +151,7 @@ div.studying img {
   margin-top: 80px;
   margin-bottom: 100px;
   font-size: 1em;
+  padding-top: 200px;
 }
 
 #food-advice {
