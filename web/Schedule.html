@@ -6,7 +6,7 @@
   <meta name="description" content="Via university exam planner">
   <meta name="author" content="">
   <title>Via exam planner</title>
-  <link rel="stylesheet" href="css/dropdown.css">
+  <!--<link rel="stylesheet" href="css/dropdown.css">-->
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/style.css">
 
@@ -20,6 +20,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <!-- BOOTSTRAP 4-->
 
+  <link rel="stylesheet" href="css/schedule.css">
   <link rel="stylesheet" href="css/navbar.css">
 </head>
 
@@ -66,26 +67,10 @@
       </div>
   </nav>
 
-<div id="upperbackground">
+  <div id="upperbackground">
+  </div>
 
-    </div>
-  <div class="Table">
-    <table class="tg">
-      <tr>
-        <th>Subject</th>
-        <th>Room</th>
-        <th>Date</th>
-        <th>teacher</th>
-        <th>Ordinary/Reexam</th>
-        <th>Oral/Writen</th>
-        <th>ECTS</th>
-        <th>External examinor</th>
-      </tr>
-    </table>
-
-        </div>
-
-
+  <div id="tbl"></div>
         <footer class="page-footer">
           <div class="container">
             <div class="row footer-content">
@@ -123,6 +108,7 @@
             </div>
           </div>
         </footer>
-
-</body>
+        <script src="CsvToTable.js"></script>
+        <script src="ScheduleScript.js"></script>
+      </body>
 </html>

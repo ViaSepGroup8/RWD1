@@ -1,0 +1,15 @@
+#tbl {
+  background-color: Gray;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  margin: auto 20px;
+}
+
+th {
+  text-align: center;
+}
