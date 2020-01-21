@@ -1,2 +1,2 @@
-var csvtotable = new CsvToTable({csvFile: 'info.csv'});
+var csvtotable = new CsvToTable({csvFile: 'table.csv'});
 csvtotable.run();
